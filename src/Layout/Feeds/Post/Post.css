@@ -2,9 +2,9 @@
     width: 100%;
     margin-top: 15px;
     border-radius: 15px;
-    background-color: white;
+    background-color: rgb(184, 164, 164);
     box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
-    
+
 }
 
 .post__top {
@@ -14,9 +14,7 @@
     padding: 15px;
 }
 
-.post__image>img {
-    width: 100%;
-}
+
 
 .post__avatar {
     margin-right: 10px;
@@ -37,6 +35,13 @@
     padding: 15px 25px;
 }
 
-.post__image > img {
-    width: 100%;
+.post__image>img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.post__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
