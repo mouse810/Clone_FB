@@ -1,10 +1,11 @@
-import { Avatar } from '@mui/material'
 import React from 'react'
+import { Avatar } from '@mui/material'
+import './Story.css'
 
-const Stories = (image, profileSrc, title) => {
+const Stories = ({ image, profileSrc, title }) => {
     return (
-        <div className='stories'>
-            <Avatar src={profileSrc} />
+        <div style={{ backgroundImage: `url(${image})` }} className='story '>
+            <Avatar src={profileSrc} className='story__avatar'/>
             <h4>{title}</h4>
         </div>
     )
