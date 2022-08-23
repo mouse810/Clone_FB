@@ -2,8 +2,8 @@ import React from 'react'
 import StoryReel from './StoryReels/StoryReel'
 import MessageSender from './MessageSender/MessageSender'
 import Post from './Post/Post'
-import Story1 from '../../images/story1.jpg'
-import Story2 from '../../images/story2.jpg'
+import Story1 from '../../utility/images/story1.jpg'
+import Story2 from '../../utility/images/story2.jpg'
 import './Feeds.css'
 
 

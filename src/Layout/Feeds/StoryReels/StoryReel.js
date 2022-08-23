@@ -1,10 +1,10 @@
 import React from 'react'
 import './StoryReel.css'
 import Story from './Story/Story'
-import story1 from '../../../images/story1.jpg'
-import story2 from '../../../images/story2.jpg'
-import story3 from '../../../images/story3.png'
-import story4 from '../../../images/story4.jpg'
+import story1 from '../../../utility/images/story1.jpg'
+import story2 from '../../../utility/images/story2.jpg'
+import story3 from '../../../utility/images/story3.png'
+import story4 from '../../../utility/images/story4.jpg'
 
 
 const StoryReels = () => {
