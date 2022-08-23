@@ -15,7 +15,7 @@ const Post = ({ profilePic, image, userName, timeStamp, message }) => {
             <div className="post__bottom">
                 <p>{message}</p>
             </div>
-            <div className="post__image">
+            <div className="post__image" style={{overflow:"hidden"}}>
                 <img src={image} alt="" />
             </div>
         </div>
