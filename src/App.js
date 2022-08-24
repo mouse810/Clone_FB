@@ -1,6 +1,6 @@
 import './App.css';
-// import Login_Page from './pages/Login_page';
-// import Signed_Page from './pages/Signed_Page';
+import LoginPage from './pages/LoginPage/LoginPage';
+// import SignUpPage from './pages/SignUpPage';
 // import { Routes, Route } from 'react-router-dom'
 import Header from './Layout/Header/Header';
 import SideBar from './Layout/SideBar/SideBar';
@@ -11,7 +11,8 @@ function App() {
   const user = 'null';
   return (
     <div className="App">
-      {!user ? <h1>LogIn </h1> : <><Header />
+      {!user ? <LoginPage /> : <>
+        <Header />
         <div className="app__body">
           <SideBar />
           <Feeds />
@@ -21,8 +22,8 @@ function App() {
 
       }
       {/* <Routes>
-        <Route path='/' element={<Signed_Page />} />
-        <Route path='/login' element={<Login_Page />} />
+        <Route path='/' element={<SignUpPage />} />
+        <Route path='/login' element={<LoginPage />} />
       </Routes> */}
 
     </div>

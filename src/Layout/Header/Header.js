@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className='header'>
             <div className="header__left">
-                <img src={fbImg} alt="" />
+                <img src={fbImg} alt="Logo" />
                 <div className="header__input">
                     <Search />
                     <input type="text" placeholder='Search Facebook' />

@@ -1,10 +1,12 @@
 import React from 'react'
+import './SignUpPage.css'
 import { Link } from 'react-router-dom'
 
 
 const Signed_Page = () => {
     return (
-        <div className='signUp-Page__main-div'>
+        <div className='signUp-Page'>
+            div
             <h1>SignUp Form</h1>
             <form className='signUp-Page__form'>
                 <div className="signUp-Page__form-inputs">
