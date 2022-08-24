@@ -1,6 +1,6 @@
 import React from 'react'
 import { Avatar } from '@mui/material'
-import { ThumbUp, Share, Message } from '@mui/icons-material'
+import { ThumbUp, Share, Message, AccountCircle, ExpandMore } from '@mui/icons-material'
 import './Post.css'
 
 const Post = ({ profilePic, image, userName, timeStamp, message }) => {
@@ -33,7 +33,8 @@ const Post = ({ profilePic, image, userName, timeStamp, message }) => {
                     <p>Share</p>
                 </div>
                 <div className="post__option">
-
+                    <AccountCircle />
+                    <ExpandMore />
                 </div>
                 <div className="post__option">
 

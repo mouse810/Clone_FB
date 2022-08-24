@@ -5,19 +5,26 @@ import './App.css';
 import Header from './Layout/Header/Header';
 import SideBar from './Layout/SideBar/SideBar';
 import Feeds from './Layout/Feeds/Feeds';
+import Widgets from './Layout/Widgets/Widgets';
 
 function App() {
+  const user = 'null';
   return (
     <div className="App">
+      {!user ? <h1>LogIn </h1> : <><Header />
+        <div className="app__body">
+          <SideBar />
+          <Feeds />
+          <Widgets />
+        </div>
+      </>
+
+      }
       {/* <Routes>
         <Route path='/' element={<Signed_Page />} />
         <Route path='/login' element={<Login_Page />} />
       </Routes> */}
-      <Header />
-      <div className="app__body">
-        <SideBar />
-        <Feeds />
-      </div>
+
     </div>
   );
 }

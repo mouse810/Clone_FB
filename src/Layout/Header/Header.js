@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import { Search, Home, Flag, Tv, Storefront, Groups, List, Message, Notifications } from '@mui/icons-material'
-import fbImg from '../../utility/images/fb-logo.png'
+import fbImg from '../../utility/Logo/fb-logo.png'
 import { IconButton, Avatar } from '@mui/material'
 
 const Header = () => {
